@@ -1,0 +1,15 @@
+@use '../../styles/variables' as vars;
+
+.footer {
+  background-color: vars.$card-bg;
+  border-top: 1px solid vars.$border-color;
+  text-align: center;
+  color: vars.$text-secondary;
+  font-size: 0.9rem;
+  flex: 0 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
