@@ -1,3 +1,5 @@
+import { UserRole } from '@/skills/authorization';
+
 export interface User {
   id: number;
   username: string;
@@ -8,6 +10,7 @@ export interface User {
   image: string;
   accessToken: string;
   refreshToken: string;
+  roles?: UserRole[];
 }
 
 export type AuthResponse = User;
